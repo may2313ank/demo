@@ -8,6 +8,7 @@ public class DemoController {
 
 	@GetMapping("/demo")
 	public String getMessage() {
+		System.out.println("*********");
 		return "Hi demo";
 	}
 }
