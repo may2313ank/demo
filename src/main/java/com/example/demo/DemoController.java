@@ -12,4 +12,10 @@ public class DemoController {
 		System.out.println("___________");
 		return "Hi demo";
 	}
+	
+	@GetMapping("/msg")
+	public String getMsg() {
+		
+		return "Hi msg";
+	}
 }
